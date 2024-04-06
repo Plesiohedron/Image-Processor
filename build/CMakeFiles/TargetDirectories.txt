@@ -1,0 +1,3 @@
+/mnt/c/users/ксеонщик/desktop/hse/ami-239-2-Roman-Myshak-Plesiohedron/tasks/image_processor/build/CMakeFiles/image_processor.dir
+/mnt/c/users/ксеонщик/desktop/hse/ami-239-2-Roman-Myshak-Plesiohedron/tasks/image_processor/build/CMakeFiles/edit_cache.dir
+/mnt/c/users/ксеонщик/desktop/hse/ami-239-2-Roman-Myshak-Plesiohedron/tasks/image_processor/build/CMakeFiles/rebuild_cache.dir
