@@ -5,11 +5,7 @@ You can view examples of output images in the `examples` folder.
 
 ## Build
 
-Create a directory with the build and launch CMake in it:
-```
-cmake ..
-```
-
+Create a directory with the build and launch CMake in it. \
 Create executable files:
 ```
 make image_processor
