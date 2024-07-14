@@ -1,3 +1,5 @@
+add_compile_options(-Ofast)
+
 add_executable(
     image_processor
     image_processor.cpp
