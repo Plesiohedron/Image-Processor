@@ -154,14 +154,31 @@ void filter::Crystallize::ApplyFilter(Image& image) {
     crystals_count_ = std::min(crystals_count_, std::min(image.width, image.height));
     GenerateRandomCrystalCenters(image);
 
-    for (int y = 0; y < image.height; ++y) {
-        for (int x = 0; x < image.width; ++x) {
-            image.pixels_data[image.width * y + x] = FindNearestCrystalCenter(y, x);
-        }
+    int start = 0;
+    const int pixels_count_in_thread = static_cast<int>(image.pixels_data.size()) / THREADS_COUNT_;
+
+    for (int i = THREADS_COUNT_; i >= 2; --i) {
+        threads_.emplace_back(&filter::Crystallize::ThreadFunction, this, image.pixels_data.data(), image.width, start, pixels_count_in_thread);
+        start += pixels_count_in_thread;
+    }
+    threads_.emplace_back(&filter::Crystallize::ThreadFunction, this, image.pixels_data.data(), image.width, start, static_cast<int>(image.pixels_data.size()) - (THREADS_COUNT_ - 1) * pixels_count_in_thread);
+
+    for (auto& thread : threads_) {
+        thread.join();
     }
 }
 
-void filter::Crystallize::GenerateRandomCrystalCenters(const Image& image) {
+void filter::Crystallize::ThreadFunction(Pixel* pixels_start_data_pointer, const int image_width, const int pixels_data_start, const int pixels_data_size) {
+    for (int i = pixels_data_start; i < pixels_data_start + pixels_data_size; ++i) {
+        int y = i / image_width;
+        int x = i % image_width;
+
+        *(pixels_start_data_pointer + i) = FindNearestCrystalCenter(y, x);
+    }
+}
+
+void filter::Crystallize::GenerateRandomCrystalCenters(const Image &image)
+{
     std::mt19937 generator{std::random_device{}()};
     std::uniform_int_distribution<> random_y(0, image.height - 1);
     std::uniform_int_distribution<> random_x(0, image.width - 1);

@@ -1,0 +1,92 @@
+[
+{
+  "directory": "/mnt/c/users/ксеонщик/desktop/Non-pet project/Image Processor/build",
+  "command": "/usr/bin/c++  -I\"/mnt/c/users/ксеонщик/desktop/Non-pet project/Image Processor/contrib/catch\"  -Wall -Werror -Wimplicit-fallthrough -g -std=gnu++20 -o CMakeFiles/contrib_catch_main.dir/contrib/catch/catch_main.cpp.o -c \"/mnt/c/users/ксеонщик/desktop/Non-pet project/Image Processor/contrib/catch/catch_main.cpp\"",
+  "file": "/mnt/c/users/ксеонщик/desktop/Non-pet project/Image Processor/contrib/catch/catch_main.cpp"
+},
+{
+  "directory": "/mnt/c/users/ксеонщик/desktop/Non-pet project/Image Processor/build/src",
+  "command": "/usr/bin/c++    -Wall -Werror -Wimplicit-fallthrough -g -std=gnu++20 -o CMakeFiles/image_processor.dir/image_processor.cpp.o -c \"/mnt/c/users/ксеонщик/desktop/Non-pet project/Image Processor/src/image_processor.cpp\"",
+  "file": "/mnt/c/users/ксеонщик/desktop/Non-pet project/Image Processor/src/image_processor.cpp"
+},
+{
+  "directory": "/mnt/c/users/ксеонщик/desktop/Non-pet project/Image Processor/build/src",
+  "command": "/usr/bin/c++    -Wall -Werror -Wimplicit-fallthrough -g -std=gnu++20 -o CMakeFiles/image_processor.dir/Parser/Parser.cpp.o -c \"/mnt/c/users/ксеонщик/desktop/Non-pet project/Image Processor/src/Parser/Parser.cpp\"",
+  "file": "/mnt/c/users/ксеонщик/desktop/Non-pet project/Image Processor/src/Parser/Parser.cpp"
+},
+{
+  "directory": "/mnt/c/users/ксеонщик/desktop/Non-pet project/Image Processor/build/src",
+  "command": "/usr/bin/c++    -Wall -Werror -Wimplicit-fallthrough -g -std=gnu++20 -o CMakeFiles/image_processor.dir/Filters/Filters.cpp.o -c \"/mnt/c/users/ксеонщик/desktop/Non-pet project/Image Processor/src/Filters/Filters.cpp\"",
+  "file": "/mnt/c/users/ксеонщик/desktop/Non-pet project/Image Processor/src/Filters/Filters.cpp"
+},
+{
+  "directory": "/mnt/c/users/ксеонщик/desktop/Non-pet project/Image Processor/build/src",
+  "command": "/usr/bin/c++    -Wall -Werror -Wimplicit-fallthrough -g -std=gnu++20 -o CMakeFiles/image_processor.dir/Filters/ImageProcessor.cpp.o -c \"/mnt/c/users/ксеонщик/desktop/Non-pet project/Image Processor/src/Filters/ImageProcessor.cpp\"",
+  "file": "/mnt/c/users/ксеонщик/desktop/Non-pet project/Image Processor/src/Filters/ImageProcessor.cpp"
+},
+{
+  "directory": "/mnt/c/users/ксеонщик/desktop/Non-pet project/Image Processor/build/src",
+  "command": "/usr/bin/c++    -Wall -Werror -Wimplicit-fallthrough -g -std=gnu++20 -o CMakeFiles/image_processor.dir/ImageLoaders/ImageLoader.cpp.o -c \"/mnt/c/users/ксеонщик/desktop/Non-pet project/Image Processor/src/ImageLoaders/ImageLoader.cpp\"",
+  "file": "/mnt/c/users/ксеонщик/desktop/Non-pet project/Image Processor/src/ImageLoaders/ImageLoader.cpp"
+},
+{
+  "directory": "/mnt/c/users/ксеонщик/desktop/Non-pet project/Image Processor/build/src",
+  "command": "/usr/bin/c++    -Wall -Werror -Wimplicit-fallthrough -g -std=gnu++20 -o CMakeFiles/image_processor.dir/ImageLoaders/BMPLoader.cpp.o -c \"/mnt/c/users/ксеонщик/desktop/Non-pet project/Image Processor/src/ImageLoaders/BMPLoader.cpp\"",
+  "file": "/mnt/c/users/ксеонщик/desktop/Non-pet project/Image Processor/src/ImageLoaders/BMPLoader.cpp"
+},
+{
+  "directory": "/mnt/c/users/ксеонщик/desktop/Non-pet project/Image Processor/build/src",
+  "command": "/usr/bin/c++    -Wall -Werror -Wimplicit-fallthrough -g -std=gnu++20 -o CMakeFiles/image_processor.dir/Image/Image.cpp.o -c \"/mnt/c/users/ксеонщик/desktop/Non-pet project/Image Processor/src/Image/Image.cpp\"",
+  "file": "/mnt/c/users/ксеонщик/desktop/Non-pet project/Image Processor/src/Image/Image.cpp"
+},
+{
+  "directory": "/mnt/c/users/ксеонщик/desktop/Non-pet project/Image Processor/build/src",
+  "command": "/usr/bin/c++    -Wall -Werror -Wimplicit-fallthrough -g -std=gnu++20 -o CMakeFiles/image_processor.dir/Exceptions/Exceptions.cpp.o -c \"/mnt/c/users/ксеонщик/desktop/Non-pet project/Image Processor/src/Exceptions/Exceptions.cpp\"",
+  "file": "/mnt/c/users/ксеонщик/desktop/Non-pet project/Image Processor/src/Exceptions/Exceptions.cpp"
+},
+{
+  "directory": "/mnt/c/users/ксеонщик/desktop/Non-pet project/Image Processor/build/src",
+  "command": "/usr/bin/c++  -I\"/mnt/c/users/ксеонщик/desktop/Non-pet project/Image Processor/src\" -I\"/mnt/c/users/ксеонщик/desktop/Non-pet project/Image Processor/contrib/catch\"  -Wall -Werror -Wimplicit-fallthrough -g -std=gnu++20 -o CMakeFiles/test_image_processor.dir/test.cpp.o -c \"/mnt/c/users/ксеонщик/desktop/Non-pet project/Image Processor/src/test.cpp\"",
+  "file": "/mnt/c/users/ксеонщик/desktop/Non-pet project/Image Processor/src/test.cpp"
+},
+{
+  "directory": "/mnt/c/users/ксеонщик/desktop/Non-pet project/Image Processor/build/src",
+  "command": "/usr/bin/c++  -I\"/mnt/c/users/ксеонщик/desktop/Non-pet project/Image Processor/src\" -I\"/mnt/c/users/ксеонщик/desktop/Non-pet project/Image Processor/contrib/catch\"  -Wall -Werror -Wimplicit-fallthrough -g -std=gnu++20 -o CMakeFiles/test_image_processor.dir/test_image_processor.cpp.o -c \"/mnt/c/users/ксеонщик/desktop/Non-pet project/Image Processor/src/test_image_processor.cpp\"",
+  "file": "/mnt/c/users/ксеонщик/desktop/Non-pet project/Image Processor/src/test_image_processor.cpp"
+},
+{
+  "directory": "/mnt/c/users/ксеонщик/desktop/Non-pet project/Image Processor/build/src",
+  "command": "/usr/bin/c++  -I\"/mnt/c/users/ксеонщик/desktop/Non-pet project/Image Processor/src\" -I\"/mnt/c/users/ксеонщик/desktop/Non-pet project/Image Processor/contrib/catch\"  -Wall -Werror -Wimplicit-fallthrough -g -std=gnu++20 -o CMakeFiles/test_image_processor.dir/Parser/Parser.cpp.o -c \"/mnt/c/users/ксеонщик/desktop/Non-pet project/Image Processor/src/Parser/Parser.cpp\"",
+  "file": "/mnt/c/users/ксеонщик/desktop/Non-pet project/Image Processor/src/Parser/Parser.cpp"
+},
+{
+  "directory": "/mnt/c/users/ксеонщик/desktop/Non-pet project/Image Processor/build/src",
+  "command": "/usr/bin/c++  -I\"/mnt/c/users/ксеонщик/desktop/Non-pet project/Image Processor/src\" -I\"/mnt/c/users/ксеонщик/desktop/Non-pet project/Image Processor/contrib/catch\"  -Wall -Werror -Wimplicit-fallthrough -g -std=gnu++20 -o CMakeFiles/test_image_processor.dir/Filters/Filters.cpp.o -c \"/mnt/c/users/ксеонщик/desktop/Non-pet project/Image Processor/src/Filters/Filters.cpp\"",
+  "file": "/mnt/c/users/ксеонщик/desktop/Non-pet project/Image Processor/src/Filters/Filters.cpp"
+},
+{
+  "directory": "/mnt/c/users/ксеонщик/desktop/Non-pet project/Image Processor/build/src",
+  "command": "/usr/bin/c++  -I\"/mnt/c/users/ксеонщик/desktop/Non-pet project/Image Processor/src\" -I\"/mnt/c/users/ксеонщик/desktop/Non-pet project/Image Processor/contrib/catch\"  -Wall -Werror -Wimplicit-fallthrough -g -std=gnu++20 -o CMakeFiles/test_image_processor.dir/Filters/ImageProcessor.cpp.o -c \"/mnt/c/users/ксеонщик/desktop/Non-pet project/Image Processor/src/Filters/ImageProcessor.cpp\"",
+  "file": "/mnt/c/users/ксеонщик/desktop/Non-pet project/Image Processor/src/Filters/ImageProcessor.cpp"
+},
+{
+  "directory": "/mnt/c/users/ксеонщик/desktop/Non-pet project/Image Processor/build/src",
+  "command": "/usr/bin/c++  -I\"/mnt/c/users/ксеонщик/desktop/Non-pet project/Image Processor/src\" -I\"/mnt/c/users/ксеонщик/desktop/Non-pet project/Image Processor/contrib/catch\"  -Wall -Werror -Wimplicit-fallthrough -g -std=gnu++20 -o CMakeFiles/test_image_processor.dir/ImageLoaders/ImageLoader.cpp.o -c \"/mnt/c/users/ксеонщик/desktop/Non-pet project/Image Processor/src/ImageLoaders/ImageLoader.cpp\"",
+  "file": "/mnt/c/users/ксеонщик/desktop/Non-pet project/Image Processor/src/ImageLoaders/ImageLoader.cpp"
+},
+{
+  "directory": "/mnt/c/users/ксеонщик/desktop/Non-pet project/Image Processor/build/src",
+  "command": "/usr/bin/c++  -I\"/mnt/c/users/ксеонщик/desktop/Non-pet project/Image Processor/src\" -I\"/mnt/c/users/ксеонщик/desktop/Non-pet project/Image Processor/contrib/catch\"  -Wall -Werror -Wimplicit-fallthrough -g -std=gnu++20 -o CMakeFiles/test_image_processor.dir/ImageLoaders/BMPLoader.cpp.o -c \"/mnt/c/users/ксеонщик/desktop/Non-pet project/Image Processor/src/ImageLoaders/BMPLoader.cpp\"",
+  "file": "/mnt/c/users/ксеонщик/desktop/Non-pet project/Image Processor/src/ImageLoaders/BMPLoader.cpp"
+},
+{
+  "directory": "/mnt/c/users/ксеонщик/desktop/Non-pet project/Image Processor/build/src",
+  "command": "/usr/bin/c++  -I\"/mnt/c/users/ксеонщик/desktop/Non-pet project/Image Processor/src\" -I\"/mnt/c/users/ксеонщик/desktop/Non-pet project/Image Processor/contrib/catch\"  -Wall -Werror -Wimplicit-fallthrough -g -std=gnu++20 -o CMakeFiles/test_image_processor.dir/Image/Image.cpp.o -c \"/mnt/c/users/ксеонщик/desktop/Non-pet project/Image Processor/src/Image/Image.cpp\"",
+  "file": "/mnt/c/users/ксеонщик/desktop/Non-pet project/Image Processor/src/Image/Image.cpp"
+},
+{
+  "directory": "/mnt/c/users/ксеонщик/desktop/Non-pet project/Image Processor/build/src",
+  "command": "/usr/bin/c++  -I\"/mnt/c/users/ксеонщик/desktop/Non-pet project/Image Processor/src\" -I\"/mnt/c/users/ксеонщик/desktop/Non-pet project/Image Processor/contrib/catch\"  -Wall -Werror -Wimplicit-fallthrough -g -std=gnu++20 -o CMakeFiles/test_image_processor.dir/Exceptions/Exceptions.cpp.o -c \"/mnt/c/users/ксеонщик/desktop/Non-pet project/Image Processor/src/Exceptions/Exceptions.cpp\"",
+  "file": "/mnt/c/users/ксеонщик/desktop/Non-pet project/Image Processor/src/Exceptions/Exceptions.cpp"
+}
+]

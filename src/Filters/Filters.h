@@ -3,6 +3,7 @@
 #include <memory>
 #include <random>
 #include <unordered_map>
+#include <thread>
 
 #include "ImageProcessor.h"
 
@@ -75,6 +76,14 @@ class Crystallize : public ImageProcessor {
 public:
     void ApplyFilter(Image& image) override;
     inline explicit Crystallize(const int crystals_count) : crystals_count_{crystals_count} {};
+
+private:
+    static constexpr int THREADS_COUNT_ = 6;
+
+    std::vector<std::thread> threads_;
+    std::vector<std::pair<int, int>> arguments_list_;
+
+    void ThreadFunction(Pixel* pixels_start_data_pointer, const int image_width, const int pixels_data_start, const int pixels_data_size);
 
 protected:
     int crystals_count_;

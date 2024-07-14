@@ -1,0 +1,8 @@
+/mnt/c/users/ксеонщик/desktop/Non-pet project/Image Processor/build/CMakeFiles/test-all.dir
+/mnt/c/users/ксеонщик/desktop/Non-pet project/Image Processor/build/CMakeFiles/contrib_catch_main.dir
+/mnt/c/users/ксеонщик/desktop/Non-pet project/Image Processor/build/CMakeFiles/edit_cache.dir
+/mnt/c/users/ксеонщик/desktop/Non-pet project/Image Processor/build/CMakeFiles/rebuild_cache.dir
+/mnt/c/users/ксеонщик/desktop/Non-pet project/Image Processor/build/src/CMakeFiles/image_processor.dir
+/mnt/c/users/ксеонщик/desktop/Non-pet project/Image Processor/build/src/CMakeFiles/test_image_processor.dir
+/mnt/c/users/ксеонщик/desktop/Non-pet project/Image Processor/build/src/CMakeFiles/edit_cache.dir
+/mnt/c/users/ксеонщик/desktop/Non-pet project/Image Processor/build/src/CMakeFiles/rebuild_cache.dir
